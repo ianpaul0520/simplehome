@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Home Panel</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="has-background-grey-light">
+    <br />
+    <section class="container section hero is-warning is-bold have-shadow">
+      <div class="hero-body has-text-centered">
+        <div class="text-center">
+          <h2 id="time" class="title is-1"><strong>Time</strong></h2>
+          <h3 id="greeting" class="title is-3"></h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container has-background-grey-lighter have-shadow">
+      <div class="columns is-centered is-vcentered">
+        <div class="column is-three-fifths has-background-">
+          <h3 class="title has-text-centered has-text-grey">SEARCH</h3>
+          <div class="field has-addons">
+            <div class="control is-expanded">
+              <input class="input is-info " type="text" placeholder="SEARCH" />
+            </div>
+            <div class="control">
+              <a class="button is-info have-shadow" href="#">Submit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section has-background-grey-light">
+      <h3 class="title has-text-centered">NEWS</h3>
+    </section>
+
+    <footer class="container footer has-background-dark">
+      <div>
+        <p class="para"></p>
+        <h3>=</h3>
+        <p class="para"></p>
+        <h3>=</h3>
+        <p class="para"></p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

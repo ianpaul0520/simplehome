@@ -1,0 +1,5 @@
+.have-shadow:hover {
+	
+	box-shadow: 3px 3px 3px grey;
+	transition: box-shadow, .4s ease-out;
+}
